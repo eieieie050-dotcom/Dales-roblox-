@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TristeAVDD | Notícias Roblox</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,Helvetica,sans-serif;
+}
+
+body{
+    background:#080808;
+    color:#fff;
+}
+
+header{
+    background:#111;
+    border-bottom:3px solid #ff0000;
+    padding:25px;
+    text-align:center;
+    position:sticky;
+    top:0;
+}
+
+header h1{
+    color:#ff2d2d;
+    font-size:35px;
+}
+
+header p{
+    color:#bbb;
+    margin-top:8px;
+}
+
+nav{
+    margin-top:18px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:10px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:red;
+}
+
+.hero{
+    padding:50px 20px;
+    text-align:center;
+}
+
+.hero h2{
+    color:#ff2d2d;
+    font-size:40px;
+}
+
+.hero p{
+    color:#ddd;
+    margin-top:15px;
+}
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+}
+
+.card{
+    background:#151515;
+    border-left:5px solid red;
+    margin:25px 0;
+    padding:20px;
+    border-radius:12px;
+    transition:.3s;
+}
+
+.card:hover{
+    transform:scale(1.02);
+}
+
+.card h3{
+    color:#ff3b3b;
+}
+
+.data{
+    color:#888;
+    margin:10px 0;
+}
+
+footer{
+    text-align:center;
+    padding:25px;
+    margin-top:40px;
+    border-top:2px solid red;
+    color:#888;
+}
+
+button{
+    background:red;
+    color:white;
+    border:none;
+    padding:12px 18px;
+    border-radius:8px;
+    cursor:pointer;
+    margin-top:20px;
+}
+
+button:hover{
+    background:#b00000;
+}
+</style>
+
+</head>
+<body>
+
+<header>
+
+<h1>TRISTEAVDD</h1>
+
+<p>Meu usuário no Roblox: <strong>@tristeavdd</strong></p>
+
+<nav>
+<a href="#">Início</a>
+<a href="#">Atualizações</a>
+<a href="#">Eventos</a>
+<a href="#">Guias</a>
+</nav>
+
+</header>
+
+<section class="hero">
+
+<h2>🔥 Notícias do Roblox</h2>
+
+<p>Fique por dentro das novidades, eventos e atualizações do Roblox.</p>
+
+<button onclick="location.reload()">Atualizar Página</button>
+
+</section>
+
+<div class="container" id="news">
+
+<div class="card">
+<h3>🚀 Bem-vindo!</h3>
+<p class="data">Seu primeiro artigo</p>
+<p>
+Aqui aparecerão as notícias mais recentes do Roblox. Você poderá editar
+ou adicionar novas notícias facilmente.
+</p>
+</div>
+
+<div class="card">
+<h3>🎮 Atualizações</h3>
+<p class="data">Em breve</p>
+<p>
+Este espaço pode mostrar novidades sobre eventos, novos recursos,
+mudanças na plataforma e informações da comunidade Roblox.
+</p>
+</div>
+
+<div class="card">
+<h3>⭐ Dicas</h3>
+<p class="data">Sempre atualizado</p>
+<p>
+Publique dicas de jogos populares, novidades e tutoriais para atrair mais visitantes.
+</p>
+</div>
+
+</div>
+
+<footer>
+
+© 2026 - TristeAVDD | Site criado para fãs de Roblox.
+
+</footer>
+
+</body>
+</html>
